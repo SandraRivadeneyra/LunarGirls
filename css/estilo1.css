@@ -1,0 +1,45 @@
+:root {
+    --color-azul: #051E34;
+    --color-negro: #000000;
+    --color-morado: #652EC7;
+    --color-rosa: #FF1493;
+    --color-verde: #52FD00;
+    --color-blanco: #FFFFFF;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+a {
+    color: var(--color-rosa);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-morado);
+}
+
+.btn-primary {
+    background-color: var(--color-morado);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-rosa);
+}
+
+header {
+    border-bottom: 1px solid var(--color-negro);
+}
+
+footer {
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+}
